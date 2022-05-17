@@ -3,16 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.open-accelerators</groupId>
-        <artifactId>customer-offer</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <artifactId>example-domain</artifactId>
+        <version>@project.version@</version>
     </parent>
-    <artifactId>customer-offer-client</artifactId>
-    <name>Service Domains :: Customer Offer :: Client</name>
+    <artifactId>example-domain-client</artifactId>
+    <name>Example Domain :: gRPC Client</name>
     <dependencies>
         <dependency>
             <groupId>io.github.open-accelerators</groupId>
-            <artifactId>customer-offer-common</artifactId>
-            <version>${project.parent.version}</version>
+            <artifactId>example-domain-common</artifactId>
+            <version>@project.version@</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -36,9 +36,13 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>${project.groupId}</groupId>
+                <groupId>io.github.open-accelerators</groupId>
                 <artifactId>mercury-maven-plugin</artifactId>
-                <version>${project.parent.version}</version>
+                <version>@project.version@</version>
+                <configuration>
+                    <sdName>example-domain</sdName>
+                    <apiDir>../example-domain-common/src/main/proto/${mercury.proto.version}/api</apiDir>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>generate-sources</phase>

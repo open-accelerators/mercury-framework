@@ -3,24 +3,34 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.open-accelerators</groupId>
-        <artifactId>customer-offer</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <artifactId>example-domain</artifactId>
+        <version>@project.version@</version>
     </parent>
-    <artifactId>customer-offer-common</artifactId>
-    <name>Service Domains :: Customer Offer :: Common</name>
+    <artifactId>example-domain-common</artifactId>
+    <name>Example Domain :: Common</name>
+    
     <dependencies>
         <dependency>
             <groupId>io.github.open-accelerators</groupId>
             <artifactId>mercury-common</artifactId>
-            <version>${project.parent.version}</version>
+            <version>@project.version@</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-junit5</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+    
     <build>
         <plugins>
             <plugin>
-                <groupId>${project.groupId}</groupId>
+                <groupId>io.github.open-accelerators</groupId>
                 <artifactId>mercury-maven-plugin</artifactId>
-                <version>${project.parent.version}</version>
+                <version>@project.version@</version>
+                <configuration>
+                    <sdName>example-domain</sdName>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>generate-sources</phase>
