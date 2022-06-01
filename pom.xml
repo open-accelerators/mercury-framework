@@ -8,6 +8,13 @@
     <artifactId>mercury-framework-parent</artifactId>
     <name>Mercury Framework Parent</name>
     <packaging>pom</packaging>
+    <scm>
+        <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework.git</developerConnection>
+        <url>https://github.com/open-accelerators/mercury-framework/tree/main</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <modules>
         <module>mercury-maven-plugin</module>
         <module>mercury-common</module>
