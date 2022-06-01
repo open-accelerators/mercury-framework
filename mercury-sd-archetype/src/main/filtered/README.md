@@ -22,11 +22,11 @@ and cleaned up after running the archetype.
 ```shell
 mvn archetype:generate -DarchetypeGroupId=io.github.open-accelerators \
   -DarchetypeArtifactId=mercury-sd-archetype \
-  -DarchetypeVersion=1.0.2-SNAPSHOT \
+  -DarchetypeVersion=${project.version} \
   -DartifactId=account-recovery \
   -DserviceDomainName=AccountRecovery \
   -DgroupId=io.github.open-accelerators \
-  -Dversion=1.0.2-SNAPSHOT
+  -Dversion=${project.version}
 ```
 
 This should be executed within the [service-domains](../service-domains) folder so that it is
