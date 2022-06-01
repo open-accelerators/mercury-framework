@@ -30,7 +30,7 @@ This will be done through the specific message channel depending on the context 
 
 ## Diagram
 
-![mercury framework](../docs/images/mercury%20framework.png)
+![mercury framework](./images/mercury%20framework.png)
 
 ## Service Domain Common library
 
@@ -73,7 +73,7 @@ public class MyService {
 
     public void myBusinessLogic() {
         // ...
-        client.getCrCustomerOfferProcedureService().initiate(initiateRequest)
+        client.getCRCustomerOfferProcedureService().initiate(initiateRequest)
                 .subscribe()
                 .with(message::complete, message::completeExceptionally);
         // Process the response message asynchronously
@@ -185,7 +185,7 @@ public class MyPRPServiceImpl implements BQStatusService {
 
 ## Examples
 
-You can find a set of demo integrations in the [examples](./examples) folder:
+You can find a set of demo integrations in the [mercury-framework-examples](https://github.com/open-accelerators/mercury-framework-examples) repository:
 
 * Customer Credit Rating
 * Party Routing Profile
