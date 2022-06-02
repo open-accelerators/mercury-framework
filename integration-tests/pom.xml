@@ -4,10 +4,9 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>mercury-parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>integration-tests</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
     <name>Mercury Integration Tests</name>
 
     <properties>
