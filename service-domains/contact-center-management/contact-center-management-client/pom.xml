@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>contact-center-management</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>contact-center-management-client</artifactId>
     <name>Service Domains :: ContactCenterManagement :: Client</name>

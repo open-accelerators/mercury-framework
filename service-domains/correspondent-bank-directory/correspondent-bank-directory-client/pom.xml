@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>correspondent-bank-directory</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>correspondent-bank-directory-client</artifactId>
     <name>Service Domains :: CorrespondentBankDirectory :: Client</name>

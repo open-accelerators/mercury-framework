@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>advertising</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>advertising-common</artifactId>
     <name>Service Domains :: Advertising :: Common</name>

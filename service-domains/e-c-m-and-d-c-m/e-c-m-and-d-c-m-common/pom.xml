@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>e-c-m-and-d-c-m</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>e-c-m-and-d-c-m-common</artifactId>
     <name>Service Domains :: ECMAndDCM :: Common</name>

@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>transaction-authorization</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>transaction-authorization-client</artifactId>
     <name>Service Domains :: TransactionAuthorization :: Client</name>

@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>channel-activity-analysis</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>channel-activity-analysis-client</artifactId>
     <name>Service Domains :: ChannelActivityAnalysis :: Client</name>

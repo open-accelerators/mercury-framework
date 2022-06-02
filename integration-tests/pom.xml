@@ -7,6 +7,7 @@
         <version>1.0.2</version>
     </parent>
     <artifactId>integration-tests</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
     <name>Mercury Integration Tests</name>
 
     <properties>
@@ -38,8 +39,4 @@
             </plugin>
         </plugins>
     </build>
-
-  <scm>
-    <tag>v1.0.2</tag>
-  </scm>
 </project>

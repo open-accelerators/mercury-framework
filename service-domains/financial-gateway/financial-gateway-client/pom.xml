@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>financial-gateway</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>financial-gateway-client</artifactId>
     <name>Service Domains :: FinancialGateway :: Client</name>

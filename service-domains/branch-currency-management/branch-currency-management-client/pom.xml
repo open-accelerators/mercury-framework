@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>branch-currency-management</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>branch-currency-management-client</artifactId>
     <name>Service Domains :: BranchCurrencyManagement :: Client</name>

@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>card-terminal-administration</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>card-terminal-administration-common</artifactId>
     <name>Service Domains :: CardTerminalAdministration :: Common</name>
